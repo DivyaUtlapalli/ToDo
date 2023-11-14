@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel='stylesheet' href="style.css"></head>
+    <script src="Register.js"></script>
+
+<body>
+    <header class="nav_bar">
+        <a href="register.html" style="color: rgb(35, 154, 190);">Register</a>&nbsp;
+        <a href="login.html" style="color: rgb(35, 154, 190);">Login</a>&nbsp;
+        <a href="todo.html" style="color: rgb(35, 154, 190);">ToDo </a>
+        </header>
+    <main>
+        <form action="" id="registerform"><br>
+        <!--h3>Registration Form</h3-->
+        <img src="https://th.bing.com/th/id/OIP.GYftgjogNUrrxM9WDyrnTwHaE7?pid=ImgDet&rs=1" alt="register"><br><br>
+        <p class="error"></p>
+        <div>   
+        <label for="firstName"><strong>First Name:</strong></label>
+        <input type="text" placeholder="Enter your first name" id="firstName" autocomplete="off">
+    </div><br>
+    <div>
+        <label for="lastName"><strong>Last Name:</strong></label>
+        <input type="text" placeholder="Enter your last name" id="lastName" autocomplete="off" required>
+    </div><br>
+    <div>
+        <label for="email"><strong>Email:<i class="bi bi-envelope-fill"></i></strong></label>
+        <input type="email" placeholder="Enter your mail id" id="email"autocomplete="off" required>
+    </div><br>
+        <div>
+        <label for="password"><strong>Password:</strong></label>
+        <input type="password" placeholder="Enter your password" id="password"  autocomplete="off"required>
+    </div><br>
+        <button type="submit" value="Register"><strong>Register</strong></button>
+    </form>
+    </main>
+    <script src="Register.js"></script>
+</body>
+</html>
