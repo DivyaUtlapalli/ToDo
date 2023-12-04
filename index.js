@@ -4,6 +4,7 @@ const app = express()
 app.use(express.json());
 
 const userRoutes = require('./server/routes/userRoutes')
+const todolistRoutes = require('./server/routes/todolistRoutes')
 //route to at least one other entity that is NOT user/customer/etc.
 
 //CORS middleware
